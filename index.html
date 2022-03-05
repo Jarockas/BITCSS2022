@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: black;
+        }
+        .my-paragraph{
+            color: blue;
+        }
+        #some-unique-element{
+            color: rgb(0, 155, 39);
+        }
+        div div{
+            color: aqua;
+        }
+        .inner+p{
+            color: brown;
+        }
+        div[class^="test"]{
+            color: blueviolet;
+        }
+
+    </style>
+    <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et alias explicabo esse ratione fuga unde suscipit aperiam reiciendis dolores nulla similique, neque enim vero dolor voluptate, necessitatibus consectetur nisi! Laboriosam?</p>
+    <p style="color: rgb(228, 57, 57);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, maiores! Sapiente doloremque praesentium suscipit quaerat mollitia, minima, accusamus quos a voluptas blanditiis corrupti ad, repudiandae accusantium repellat nesciunt non incidunt.</p>
+    <p class="my-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sapiente quasi odio in quo aliquid adipisci, facere culpa! Maxime unde neque facere eaque, ducimus quam repudiandae? Assumenda totam ducimus veniam!</p>
+    <p class="my-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem enim magnam sunt, sed eveniet ipsa deleniti est facilis. Incidunt minima aliquid consectetur magni. Voluptate, facere. Quisquam qui dolorem quod alias!</p>
+    <div class="My-red-element" id="some-unique-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ex qui optio exercitationem quos doloribus dolor! Aut atque rerum laborum. Laborum doloribus doloremque consectetur quas, mollitia hic perspiciatis non repellat?</div>
+    <div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, repellendus debitis? Repellendus consectetur dolor quasi, molestias eos fugiat, nulla error pariatur doloribus qui ullam unde, illum debitis optio maxime. Molestiae.</div>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dicta reiciendis, exercitationem fugit ab nesciunt veniam, minima non doloremque ullam odio fugiat vitae delectus? Perspiciatis earum asperiores minima omnis rerum.</div>
+    <div class="outer">
+        <div class="inner">Karolis</div>
+        <p>Karolis1</p>
+        <p>Karolis22</p>
+    </div>
+    <section>
+        <article>
+            <div class="outer inner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut autem quibusdam at deleniti, eveniet commodi quidem adipisci aliquam ad quam facilis reiciendis eaque. Similique eveniet reprehenderit temporibus nihil nobis?</div>
+        </article>
+        </section>
+        </div>
+    <div class="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, placeat odio. Quos voluptatibus odio at saepe illo quibusdam porro dolorum modi minima mollitia eum, nesciunt facilis quisquam pariatur cumque veritatis.</div>
+    <div class="test-something">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos porro eius distinctio, eum velit iusto illum, illo, ipsum cumque esse sint suscipit. Asperiores repellendus corporis rem nostrum ullam optio.</div>
+    <div class="test-something">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos porro eius distinctio, eum velit iusto illum, illo, ipsum cumque esse sint suscipit. Asperiores repellendus corporis rem nostrum ullam optio.</div>
+</html>
